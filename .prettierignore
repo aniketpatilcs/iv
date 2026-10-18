@@ -1,0 +1,18 @@
+# Generated or vendored
+public/
+vendor/
+node_modules/
+storage/
+bootstrap/cache/
+resources/js/legacy/
+
+# Designer source files, kept byte-for-byte as delivered
+data/
+
+# Owned by other tools
+composer.json
+composer.lock
+package-lock.json
+*.php
+*.blade.php
+*.md

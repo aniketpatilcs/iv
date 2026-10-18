@@ -1,0 +1,14 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    paths:
+        - app
+        - config
+        - database
+        - routes
+
+    # 6 checks types on every parameter, return and property. Raise towards 8 as the codebase allows.
+    level: 6
+
+    checkMissingIterableValueType: true
